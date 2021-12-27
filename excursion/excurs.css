@@ -1,0 +1,116 @@
+
+header {
+    background: none;
+    min-height: max-content;
+}
+
+
+
+.logo_text > div {
+    color: #000;
+}
+
+.tel, .email {
+    color: #000;
+}
+
+.tel_img,
+.email_img {
+    background: #000000;
+    opacity: 0.4;
+    border-radius: 50%;
+}
+
+button {
+    color: #0050B2;
+    border-color:#0050B2;
+}
+
+nav a {
+    color: #333333;    
+}
+
+.exc_bg {
+    background: no-repeat center/cover url("../excursion/img_exc/exc_bg.png");
+    min-height: 496px
+}
+
+header ul {
+    margin-top: 0;
+}
+
+header nav {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 58px;
+    text-align: center;
+    margin-top: 170px;
+    max-width: 1120px;
+}
+
+/*content*/
+
+.exc_content {
+    max-width: 826px;
+    margin-top: 63px;
+    margin-bottom: 64px;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 140%;
+    color: #333333;
+}
+
+/*list*/
+
+.list {
+    margin-bottom: 80px;
+}
+
+.list .container {
+    padding: 0;
+}
+
+.card_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.card_item {
+    max-width: 352px;
+    min-height: 400px;
+    border: 1px solid #D9D9DE;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.exc_item_title {
+    padding: 12px 35px 30px 16px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.exc_item_descr {
+    max-width: 270px;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333333;
+}
+
+.min_pad {
+    padding-bottom: 0;
+}
